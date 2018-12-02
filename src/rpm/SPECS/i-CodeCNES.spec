@@ -9,7 +9,7 @@ Group:      develenv
 License:    Eclipse Public License - v 1.0
 Packager:   softwaresano.com
 URL:        https://github.com/lequal/i-CodeCNES/
-BuildArch:  noarch
+BuildArch:  x86_64
 BuildRoot:  %{_topdir}/BUILDROOT
 Requires:   ss-develenv-user >= 33
 Vendor:     softwaresano
