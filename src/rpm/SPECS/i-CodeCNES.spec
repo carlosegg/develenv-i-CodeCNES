@@ -37,6 +37,7 @@ cd ..
 curl -L -k -O https://github.com/lequal/i-CodeCNES/releases/download/v%{i_code_cnes_verson}/i-CodeCNES-%{i_code_cnes_verson}-CLI-linux.gtk.x86_64.zip
 unzip i-CodeCNES-%{i_code_cnes_verson}-CLI-linux.gtk.x86_64.zip
 chmod 755 icode/icode
+rm -rf %{package_name}
 mv icode %{package_name}
 rm -f i-CodeCNES-%{i_code_cnes_verson}-CLI-linux.gtk.x86_64.zip
 # ------------------------------------------------------------------------------
