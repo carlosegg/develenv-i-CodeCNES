@@ -59,6 +59,6 @@ rm -f i-CodeCNES-%{i_code_cnes_verson}-CLI-linux.gtk.x86_64.zip
 %postun
 
 %files
-%defattr(-,develenv,develenv,-)
+%defattr(-,root,root,-)
 %{package_home}/*
 
