@@ -15,7 +15,7 @@ Requires:   ss-develenv-user >= 33
 Vendor:     softwaresano
 
 %define package_name i-CodeCNES
-%define package_home /opt/ss/develenv/dp/platform/%{package_name}
+%define package_home /opt/ss/develenv/platform/%{package_name}
 
 %description
 i-Code CNES is a static code analysis tool to help developers write code 
